@@ -1,0 +1,43 @@
+{
+    "host":          "kingsmp.vn",
+    "port":          25565,
+    "version":       "1.21.1",
+    "ownerUsername": "Namblox25",
+    "registered":    true,
+    "botPassword":   "Nam@1234",
+    "respawn":       true,
+    "useProxy":      trud,
+    "autoMenu":      true,
+    "menuCommand":   "/menu",
+    "webDashboard":  true,
+
+    "settings": {
+        "pollInterval":  45000,
+        "pollJitter":    10000,
+        "shardItemSlot": 1,
+        "kingSmpSlot":   24,
+        "afkGuiKeyword": "KHU AFK",
+        "afkGuiSlots":   15,
+        "webPort":       3000
+    },
+
+    "bots": [
+        {
+            "id":          "bot-1",
+            "username":    "Namblox255",
+            "registered":  true,
+            "botPassword": "Nam@1234",
+            "theme":       "teal",
+            "autoMenu":    true,
+            "menuCommand": "/menu",
+            "clientSettings": {
+                "locale":       "vi_VN",
+                "viewDistance": 6,
+                "chatFlags":    0,
+                "chatColors":   true,
+                "skinParts":    127,
+                "mainHand":     1
+            }
+        }
+    ]
+}
